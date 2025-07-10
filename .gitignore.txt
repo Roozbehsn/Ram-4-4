@@ -1,0 +1,36 @@
+# MAX+PLUS II Generated Files
+*.cnf
+*.fit
+*.hif
+*.jam
+*.jbc
+*.mmf
+*.ndb
+*.pin
+*.rpt
+*.snf
+*.srp
+*.syn
+*.tdo
+*.vho
+*.vo
+*.pof
+*.sof
+*.ttf
+*.qpf
+*.qsf
+*.qws
+*.qpt
+*.srf
+*.rpt
+*.sim
+*.srr
+*.vlg
+*.vhdl
+
+# Temporary files and logs
+*.log
+*.bak
+*.tmp
+*.~*
+# Add any other temporary files your system or editor might create
