@@ -10,7 +10,6 @@ This repository contains the design files for a 4x4 (16-bit total, 4 words of 4 
   * [Design Files](#design-files)
   * [How to Open and Compile](#how-to-open-and-compile)
   * [Simulation and Verification](#simulation-and-verification)
-  * [Block Diagram / Architecture](#block-diagram---architecture)
   * [Pinout](#pinout)
   * [Further Learning](#further-learning)
   * [Contribution](#contribution)
@@ -72,24 +71,6 @@ The `Ram.scf` file is provided to verify the functionality of the RAM using the 
       * The waveform viewer will display the input stimuli and the resulting output waveforms, demonstrating read and write operations.
       * Observe the `DATA_OUT` signal to confirm correct data storage and retrieval.
 
-## Block Diagram / Architecture
-
-*(Optional: Add a simple ASCII art block diagram or a link to an image of your RAM's internal structure here. For example:)*
-
-```
-+-------------------------------------------------+
-|                    4x4 RAM                      |
-|                                                 |
-|  ADDR [1:0] --->|                               |<--- CLK
-|                 |  Memory Core (4x 4-bit cells) |
-| DATA_IN [3:0] ->|                               |
-|                 |                               |---> DATA_OUT [3:0]
-|           WE --->|                               |
-|           OE --->|                               |
-|       RESET --->|                               |
-+-------------------------------------------------+
-```
-
 ## Pinout
 
 The following table summarizes the primary input and output pins of the 4x4 RAM. Pin assignments are managed within the `Ram.acf` file.
@@ -110,6 +91,8 @@ For a deeper theoretical understanding of RAM architectures, digital logic desig
 
   * **"Digital Design" by M. Morris Mano and Michael D. Ciletti**
       * Look for chapters specifically discussing **Memory Units**, **Random Access Memory (RAM)**, and sequential circuits. This book provides excellent foundational knowledge on how memory works at a logic level.
+  * **Sequential Logic: Memory from Charles University Faculty of Electrical Engineering**
+      * This online resource provides a good overview of sequential logic and memory concepts. You can explore it at: https://susta.cz/fel/74/index_engall.htm
 
 ## Contribution
 
