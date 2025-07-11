@@ -55,7 +55,7 @@ To open and compile this project, you will need the **Altera MAX+PLUS II** softw
 3.  **Open the project:**
       * Go to `File` \> `Open Project`.
       * Navigate to the cloned `Ram-4-4` directory.
-      * Select the `project.gdf` file and click `Open`.
+      * Select the `Ram-4-4.gdf` file and click `Open`.
 
 
 ## Simulation and Verification
