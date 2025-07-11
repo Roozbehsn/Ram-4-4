@@ -15,7 +15,6 @@ This repository contains the design files for a 4x4 (16-bit total, 4 words of 4 
   * [Further Learning](#further-learning)
   * [Contribution](#contribution)
   * [License](#license)
-  * [Contact](#contact)
 
 
 ## Introduction
@@ -118,4 +117,4 @@ Feel free to fork this repository, explore the design, and suggest improvements.
 
 ## License
 
-This project is open-source and available under the [MIT License](https://www.google.com/search?q=LICENSE).
+This project is open-source and available under the [MIT License](#MIT-License).
